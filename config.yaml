@@ -1,17 +1,34 @@
+NETWORKS_SETTINGS: 
+
+    HYPERPARAMETERS:
+
+        learning_rate: 0.001
+        n_epochs: 30
+        epochs_after_unfreezing: 5
+    
+
+
+
 AUDIO:
-  original_dataset_path:
-      ambulance_path: 
-      firetruck_path: 
-      police_path:
+
+  original_dataset_path: dataset_audio/
+
+        ambulance_path: Original/ambulance
+        firetruck_path: Original/firetruck
+        police_path: Original/traffic
 
   augmented_dataset_path:
-      ambulance_path: 
-      firetruck_path: 
-      police_path:
+
+        ambulance_path: Augmented/ambulance
+        firetruck_path: Augmented/firetruck
+        police_path: Augmented/traffic
 
 VIDEO:
+
   original_dataset_path:
-      ambulance_path: None
+
+        ambulance_path: None # to load once we have the dataset
 
   augmented_dataset_path:
-      ambulance_path: None
+  
+      ambulance_path: None # to load once we have the dataset
