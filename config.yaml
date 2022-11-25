@@ -1,0 +1,17 @@
+AUDIO:
+  original_dataset_path:
+      ambulance_path: 
+      firetruck_path: 
+      police_path:
+
+  augmented_dataset_path:
+      ambulance_path: 
+      firetruck_path: 
+      police_path:
+
+VIDEO:
+  original_dataset_path:
+      ambulance_path: None
+
+  augmented_dataset_path:
+      ambulance_path: None
